@@ -2,8 +2,13 @@
     Author: Rengang (Angelo) Yang
 """
 
-
-import BoardObj from Board
-
+from Board import BoardObj
 
 
+
+def main():
+    testBoard = BoardObj("test_board.txt")
+
+
+if __name__ == "__main__":
+    main()
