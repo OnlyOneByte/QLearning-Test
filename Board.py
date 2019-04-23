@@ -2,9 +2,10 @@
     Author: Rengang (Angelo) Yang
 
 """
-
+from Mouse import Mouse
 
 class BoardObj:
+
 
     # Constructs a new board using boardLayout input
     def __init__(self, boardLayoutFile):
@@ -17,7 +18,20 @@ class BoardObj:
         self.gridVals = None
         self.obstacles = None
 
+        # Read in file.
         self.readIn(boardLayoutFile)
+
+        # Create the has-a mouse.
+        self.mouse = Mouse(self.startCol, self.startRow)
+
+
+
+    def paintState():
+        
+        
+        
+        return
+        
     
 
     # Reads in file and initializes the variables.

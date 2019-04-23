@@ -1,6 +1,15 @@
-
+"""
+    Author: Rengang (Angelo) Yang
+"""
 class Mouse:
 
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+    # Constructor
+    def __init__(self, col, row):
+        self.col = col
+        self.row = row
+
+
+    
+
+
+    
