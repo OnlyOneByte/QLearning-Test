@@ -26,7 +26,7 @@ class BoardObj:
 
 
 
-    def paintState():
+    def drawState(self):
         
         
         
